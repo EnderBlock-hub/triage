@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "host": "ws-01",
+    "severity": "high",
+    "rule": "Brute force",
+    "src_ip": "10.0.0.5"
+  },
+  {
+    "id": 2,
+    "host": "srv-db",
+    "severity": "critical",
+    "rule": "Malware detected",
+    "src_ip": "10.0.0.9"
+  },
+  {
+    "id": 5,
+    "host": null,
+    "severity": "high",
+    "rule": "Suspicious PowerShell",
+    "src_ip": "10.0.0.7"
+  },
+  {
+    "id": 6,
+    "host": "srv-db",
+    "severity": "high",
+    "rule": "Brute force",
+    "src_ip": "10.0.0.5"
+  },
+  {
+    "id": 10,
+    "host": "dc-01",
+    "severity": "critical",
+    "rule": "Kerberoasting",
+    "src_ip": "10.0.0.7"
+  },
+  {
+    "id": 11,
+    "host": "dc-01",
+    "severity": "high",
+    "rule": "Brute force",
+    "src_ip": "10.0.0.5"
+  },
+  {
+    "id": 14,
+    "host": "srv-web",
+    "severity": "high",
+    "rule": "SQL injection attempt",
+    "src_ip": "203.0.113.17"
+  },
+  {
+    "id": 15,
+    "host": "srv-web",
+    "severity": "high",
+    "rule": "SQL injection attempt",
+    "src_ip": "203.0.113.17"
+  },
+  {
+    "id": 18,
+    "host": "srv-db",
+    "severity": "critical",
+    "rule": "Data exfiltration",
+    "src_ip": "10.0.0.9"
+  },
+  {
+    "id": 19,
+    "host": "ws-03",
+    "severity": "High",
+    "rule": "Phishing link clicked",
+    "src_ip": "198.51.100.23"
+  },
+  {
+    "id": 23,
+    "host": "ws-04",
+    "severity": "critical",
+    "rule": "Ransomware behavior",
+    "src_ip": "10.0.0.30"
+  }
+]
